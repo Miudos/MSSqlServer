@@ -10,20 +10,20 @@ SqlServerPerfCheck_v1.ps1
 
 This script was designed to build a MS Sql Server inventory. This script collects MS Sql Server information and outputs to an html file.
 	This script will get:
-	    - Disk Alignment
-	    - SQL Server Version
-	    - xp_msver (MS Sql Server version, build and Server environment)
-	    - Sql Server Configurations
-	    - Last Good DBCC executed
-	    - Database Properties
-	    - Database Files Size Details
-	    - Io Stall
-	    - Last 24h Log
-	    - Top 10 Waittypes
-	    - Last Job History
-	    - Cluster Node
-	    - Sql Server Counters
-	    - Top 10 Cache bloat --> Query created by Bart Duncan https://blogs.msdn.microsoft.com/bartd/2010/05/26/finding-procedure-cache-bloat/
+- Disk Alignment
+- SQL Server Version
+- xp_msver (MS Sql Server version, build and Server environment)
+- Sql Server Configurations
+- Last Good DBCC executed
+- Database Properties
+- Database Files Size Details
+- Io Stall
+- Last 24h Log
+- Top 10 Waittypes
+- Last Job History
+- Cluster Node
+- Sql Server Counters
+- Top 10 Cache bloat --> Query created by Bart Duncan https://blogs.msdn.microsoft.com/bartd/2010/05/26/finding-procedure-cache-bloat/
 	
 	It can be executed on multiple servers, using a text file as a parameter.
 
