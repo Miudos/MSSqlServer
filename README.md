@@ -29,9 +29,9 @@ This script was designed to build a MS Sql Server inventory. This script collect
 
 	PARAMETER EXPLANATIONS:
 	
-	$serverList: Optional
+	$serverList: Optional - If empty this script will consider the local server.
 
-*Path to a text file with server name.
+*Path to a text file with a list of servers name or IP address.
 
 *You dont need to specify server and instance. Only the server name or Ip.
 
