@@ -46,3 +46,5 @@ E.g.:
 	
 	> SqlServerPerfCheck_v1.ps1 ./srvList.txt
 ```
+
+**Dobereiner Miller - Powershell script to collect MS Sql Server basic information.**
