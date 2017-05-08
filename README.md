@@ -1,6 +1,6 @@
 # PowerShell to collect MS Sql Server Basic Information
 
-Many of projects I work on, involve to collect basic information about MS Sql Server, such as: Server and MS Sql Sever information, disk alignments and so one.
+Many of projects I work on, involve collecting basic information about MS Sql Server, such as: Server and MS Sql Sever information, disk alignments and so one.
 
 This script will collect basic informations from MS Sql Server and outputs to an HTML file. The data collected help us to verify best practices applied to the server.
 
