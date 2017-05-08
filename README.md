@@ -35,6 +35,7 @@ This script was designed to build a MS Sql Server inventory. This script collect
 *You dont need to specify server and instance. Only the server name or Ip.
 
 *For all servers provided you must execute under an user context with administration rights in Windows OS and Sql Server.
+```
 E.g.:
 		File name: srvList.tx
 		File content:
@@ -44,3 +45,4 @@ E.g.:
 		[...]
 	
 	> SqlServerPerfCheck_v1.ps1 ./srvList.txt
+```
