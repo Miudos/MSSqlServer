@@ -30,9 +30,11 @@ This script was designed to build a MS Sql Server inventory. This script collect
 	PARAMETER EXPLANATIONS:
 	
 	$serverList:
-		*Path to a text file with server list to scan.
-		*You dont need to specify server and instance. Only the server name or Ip.
-		*For all servers provided you must execute under an user context with administration rights in Windows OS and Sql Server.
+*Path to a text file with server list to scan.
+
+*You dont need to specify server and instance. Only the server name or Ip.
+
+*For all servers provided you must execute under an user context with administration rights in Windows OS and Sql Server.
 
 		File name sample: srvList.tx
 		File content:
