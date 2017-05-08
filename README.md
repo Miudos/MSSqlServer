@@ -10,15 +10,20 @@ SqlServerPerfCheck_v1.ps1
 
 This script was designed to build a MS Sql Server inventory. This script collects MS Sql Server information and outputs to an html file.
 	This script will get:
-		Disk sector size,
-		Server and databases properties and size,
-		Sql Server Version and Infos,
-		Io Stall,
-		Top waittypes,
-		Top 10 cache bloats,
-		Current values for MS Sql Server counter Buffer Manager,
-		Last dbcc checkdb executed,
-		Last 24h log data.
+		Disk Alignment
+		SQL Server Version
+		xp_msver (MS Sql Server version, build and Server environment)
+		Sql Server Configurations
+		Last Good DBCC executed
+		Database Properties
+		Database Files Size Details
+		Io Stall
+		Last 24h Log
+		Top 10 Waittypes
+		Last Job History
+		Cluster Node
+		Sql Server Counters
+		Top 10 Cache bloat --> Query created by Bart Duncan https://blogs.msdn.microsoft.com/bartd/2010/05/26/finding-procedure-cache-bloat/
 	
 	It can be executed on multiple servers, using a text file as a parameter.
 
@@ -37,5 +42,3 @@ This script was designed to build a MS Sql Server inventory. This script collect
 		[...]
 	
 	> SqlServerPerfCheck_v1.ps1 ./srvList.txt
-
-
